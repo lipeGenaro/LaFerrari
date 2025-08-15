@@ -22,9 +22,8 @@
 
 ## Fotos do Projeto
 
-![Minha Foto](foto.png)
 
 ---
 
-<img src="assets/print.png" width="300" height="200" alt="Logo do Projeto">
+
 
