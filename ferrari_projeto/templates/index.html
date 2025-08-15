@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari LaFerrari</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="App">
+        <header class="hero">
+            <div class="overlay"></div>
+            <div class="hero-content">
+                <h1>LAFERRARI</h1>
+                <p>A obra-prima tecnológica da Ferrari</p>
+            </div>
+        </header>
+
+        <section class="intro section">
+            <div class="container">
+                <h2>A Perfeição em Movimento</h2>
+                <p>A Ferrari representa a perfeita fusão entre tradição italiana, excelência em engenharia e paixão pelas corridas. Fundada por Enzo Ferrari, a marca do Cavallino Rampante transcendeu o universo automotivo para se tornar um símbolo global de luxo, performance e exclusividade. Entre suas criações mais extraordinárias, o modelo LaFerrari destaca-se como a expressão máxima da filosofia e capacidade tecnológica da fabricante de Maranello, combinando herança histórica com inovação de ponta.</p>
+            </div>
+        </section>
+
+        <section class="history section">
+            <div class="container">
+                <div class="two-columns">
+                    <div class="column">
+                        <h2>História da Ferrari</h2>
+                        <p>A história da Ferrari começou oficialmente em 16 de novembro de 1929, quando Enzo Ferrari fundou a Scuderia Ferrari em Modena, Itália. Inicialmente, a empresa atuava como equipe de corrida, preparando e gerenciando carros Alfa Romeo para pilotos independentes. O sonho de Enzo, no entanto, sempre foi criar seus próprios automóveis.</p>
+                        <p>Em 1939, Enzo Ferrari deixou a Alfa Romeo para fundar a Auto Avio Costruzioni, construindo seu primeiro carro em 1940. Porém, o início oficial da Ferrari como fabricante de automóveis é reconhecido em 1947, quando o primeiro veículo com o nome Ferrari foi concluído.</p>
+                        <p>O emblemático símbolo da Ferrari, o Cavallino Rampante (cavalo empinado), tem uma história fascinante. O cavalo negro era originalmente o símbolo do Conde Francesco Baracca, um lendário piloto da força aérea italiana durante a Primeira Guerra Mundial. Em 1923, após vencer uma corrida, Enzo Ferrari conheceu a Condessa Paolina, mãe de Baracca, que sugeriu que ele usasse o símbolo do cavalo em seus carros para trazer boa sorte.</p>
+                    </div>
+                    <div class="column">
+                        <div class="image-container">
+                            <img src="../static/assets/ferrari logo.jpg" alt="Ferrari Logo" class="history-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="laferrari section dark">
+            <div class="container">
+                <h2>O LaFerrari: Uma Obra-Prima Tecnológica</h2>
+                <div class="two-columns">
+                    <div class="column">
+                        <p>O LaFerrari, lançado em 2013 no Salão Internacional do Automóvel de Genebra, representa um marco na história da fabricante italiana. Seu nome, que significa literalmente "A Ferrari" em italiano, não foi escolhido por acaso – ele simboliza a essência da marca e sua visão para o futuro da indústria automotiva.</p>
+                        <p>Desenvolvido a partir de 2009, o projeto F150 (nome interno do LaFerrari) tinha como objetivo criar um veículo que não apenas homenageasse a rica história da Ferrari, mas que também incorporasse as mais recentes inovações tecnológicas. O resultado foi um supercarro híbrido que combina tradição e futuro, estabelecendo novos padrões de performance e sustentabilidade.</p>
+                        <p>O LaFerrari é o primeiro modelo híbrido da história da Ferrari, marcando uma nova era para a fabricante italiana. Sua produção foi limitada a apenas 499 unidades, tornando-o instantaneamente um item de colecionador e um símbolo de exclusividade.</p>
+                    </div>
+                    <div class="column">
+                        <div class="image-container">
+                            <img src="{{ url_for('static', filename='assets/laferrari_front.jpeg') }}" alt="LaFerrari" class="laferrari-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="specs section">
+            <div class="container">
+                <h2>Tecnologia e Desempenho</h2>
+                <div class="two-columns">
+                    <div class="column">
+                        <div class="image-container">
+                            <img src="{{ url_for('static', filename='assets/la ferrari_lado.png') }}" alt="LaFerrari Lateral" class="specs-image">
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p>O coração do LaFerrari é um impressionante sistema de propulsão híbrido que combina um motor V12 de 6,3 litros com 65 graus de inclinação entre as bancadas de cilindros, capaz de produzir 800 cavalos de potência a 9.000 rpm e 700 Nm de torque a 6.750 rpm, complementado por um motor elétrico KERS (Sistema de Recuperação de Energia Cinética) de 163 cavalos.</p>
+                        <p>Esta combinação resulta em uma potência total de 963 cavalos, permitindo que o LaFerrari acelere de 0 a 100 km/h em apenas 2,7 segundos e atinja uma velocidade máxima superior a 350 km/h. Mais impressionante ainda, o carro é capaz de atingir 200 km/h em menos de 7 segundos e 300 km/h em apenas 15 segundos.</p>
+                        <p>O sistema híbrido do LaFerrari não foi desenvolvido apenas para aumentar a potência, mas também para reduzir o consumo de combustível em até 40%, demonstrando o compromisso da Ferrari com a eficiência energética e a sustentabilidade.</p>
+                    </div>
+                </div>
+                <div class="specs-details">
+                    <div class="spec-item">
+                        <h3>963 cv</h3>
+                        <p>Potência Total</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>2,7 s</h3>
+                        <p>0-100 km/h</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>350+ km/h</h3>
+                        <p>Velocidade Máxima</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>499</h3>
+                        <p>Unidades Produzidas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="design section dark">
+            <div class="container">
+                <h2>Design e Interior</h2>
+                <p>O design do LaFerrari é uma obra-prima de estética e funcionalidade. Cada linha e curva foi cuidadosamente estudada para otimizar a aerodinâmica e o desempenho, resultando em um visual agressivo e futurista que não deixa de homenagear o legado da Ferrari.</p>
+                <p>O cockpit do LaFerrari foi projetado com foco total no motorista. O volante, inspirado nos carros de Fórmula 1, concentra os principais controles, permitindo que o piloto mantenha as mãos sempre na posição ideal. Os bancos são integrados à estrutura do carro, e o motorista ajusta a posição dos pedais e do volante para encontrar a posição de condução perfeita, assim como em um carro de corrida.</p>
+                <div class="image-gallery">
+                    <div class="gallery-item">
+                        <img src="../static/assets/interior-laferrari.jpg" alt="Interior do LaFerrari">
+                        <p>Interior focado no motorista</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="{{ url_for('static', filename='assets/laferrari-traseira.png') }}" alt="Traseira do LaFerrari">
+                        <p>Design aerodinâmico</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="{{ url_for('static', filename='assets/detalhes-laferrari.png') }}" alt="Detalhe do LaFerrari">
+                        <p>Atenção aos detalhes</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="legacy section">
+            <div class="container">
+                <h2>O Legado do LaFerrari</h2>
+                <p>O LaFerrari não é apenas um carro extraordinário; é um marco na história da Ferrari e da indústria automotiva como um todo. Ele representa a visão da Ferrari para o futuro dos supercarros, combinando desempenho excepcional com tecnologia sustentável.</p>
+                <p>Em 2016, a Ferrari lançou o LaFerrari Aperta, uma versão conversível limitada a apenas 209 unidades, tornando-a ainda mais exclusiva que a versão coupé. O Aperta manteve todas as características técnicas do LaFerrari original, adicionando a emoção da condução a céu aberto.</p>
+                <p>O impacto do LaFerrari vai além de suas especificações técnicas impressionantes. Ele estabeleceu um novo padrão para os supercarros híbridos, influenciando toda a indústria e demonstrando que sustentabilidade e desempenho extremo podem coexistir harmoniosamente.</p>
+            </div>
+        </section>
+
+        <section class="conclusion section dark">
+            <div class="container">
+                <h2>A Excelência Ferrari</h2>
+                <p>A Ferrari e seu extraordinário LaFerrari representam o ápice da engenharia automotiva, combinando tradição, inovação e paixão em um pacote que transcende o conceito de automóvel para se tornar uma verdadeira obra de arte em movimento.</p>
+                <p>Desde sua fundação por Enzo Ferrari, a marca do Cavallino Rampante tem sido sinônimo de excelência, estabelecendo padrões que inspiram toda a indústria. O LaFerrari, com sua tecnologia híbrida revolucionária e desempenho extraordinário, é a prova de que a Ferrari continua na vanguarda da inovação automotiva, honrando seu legado enquanto olha para o futuro.</p>
+                <div class="cta">
+                    <a href="#" class="button">Conheça mais sobre a Ferrari</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img src="{{ url_for('static', filename='assets/ferrari logo.jpg') }}" alt="Ferrari Logo">
+                    </div>
+                    <div class="footer-links">
+                        <ul>
+                            <li><a href="#">Sobre a Ferrari</a></li>
+                            <li><a href="#">Modelos</a></li>
+                            <li><a href="#">História</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; <span id="current-year"></span> Ferrari S.p.A. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='scripts/script.js') }}"></script>
+</body>
+</html>
